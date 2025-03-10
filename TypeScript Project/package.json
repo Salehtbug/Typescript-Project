@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/jquery": "^3.5.32",
+    "@types/jqueryui": "^1.12.24",
+    "@types/node": "^22.13.10"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}

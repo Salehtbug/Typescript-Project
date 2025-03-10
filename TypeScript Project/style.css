@@ -1,0 +1,218 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.card {
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 30px;
+}
+h4 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.form-outline {
+  margin-bottom: 20px;
+}
+
+.form-outline input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-outline label {
+  color: #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #444;
+  color: white;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+button.ms-1 {
+  margin-left: 10px;
+}
+.undo {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: none;
+  cursor: pointer;
+}
+
+.undo.active {
+  display: block;
+}
+
+.undo div {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.undo div:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.task-status.finished {
+  text-decoration: line-through;
+}
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* Popup background */
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.5); /* Black with transparency */
+}
+
+/* Popup content */
+.popup-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px; /* Set width of popup */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Close button for the popup */
+.close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+/* Close button hover effect */
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Title inside the popup */
+.popup-content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Label and input fields inside popup */
+.popup-content label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Save button inside popup */
+.popup-content button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.popup-content button:hover {
+  background-color: #218838;
+}
+
